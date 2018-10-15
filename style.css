@@ -1,0 +1,46 @@
+body{
+    background-image: url("img/desktoppineapple.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 500px;
+    background-size: cover;
+}
+
+
+
+h1 {
+    text-align: center;
+    text-shadow: 3px 2px rgb(173, 35, 120);
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    font-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+
+/* Give Social Media icons hover color */
+/* 
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.github {
+    background: #0a0e0f;
+    color: white;
+} */
