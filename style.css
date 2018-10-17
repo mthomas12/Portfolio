@@ -1,76 +1,207 @@
-body{
-    background-image: url("img/desktoppineapple.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    min-height: 500px;
-    background-size: cover;
-}
-
-
-
-h1 {
-    text-align: center;
-    text-shadow: 3px 2px rgb(173, 35, 120);
-    font-family: 'Patua One', cursive;
-    font-size: 100px;
-}
-
-h2 {
-    text-align: center;
-    font-family: 'Patua One', cursive;
-}
-
-.jumbotron {
-    background: none;
-}
-
-.socialmedia{
-    text-align: center;
-}
-
-.container {
-    width: 60%;
-    margin: 0 auto;
-    font-style: bold;
-}
-/* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 60px;
-    width: 60px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-/* add styling to social media icons */
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-slack {
-    background: red;
-    color: white;
-}
-
-.fa-skype {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-github {
-    background: gray;
+    body {
+        background-image: url("img/desktoppineapple.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 500px;
+        background-size: cover;
+    }
     
-    color: white;
-}
+    h1 {
+        text-align: center;
+        color: black;
+        text-shadow: 3px 2px darkmagenta;
+        font-family: 'Patua One', cursive;
+        font-size: 100px;
+    }
+    
+    h2 {
+        text-align: center;
+        color: darkmagenta;
+        font-family: 'Patua One', cursive;
+    }
+    
+    .nav {
+        background: none;
+    }
+    
+    .jumbotron {
+        background: none;
+    }
+    
+    .socialmedia {
+        text-align: center;
+    }
+    
+    .container {
+        width: 60%;
+        margin: 0 auto;
+        font-style: bold;
+    }
+    /* Style all font awesome icons */
+    
+    .fa {
+        padding: 20px;
+        font-size: 60px;
+        width: 60px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+    /* add styling to social media icons */
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    
+    .fa-slack {
+        background: red;
+        color: white;
+    }
+    
+    .fa-skype {
+        background: #55ACEE;
+        color: white;
+    }
+    
+    .fa-github {
+        background: gray;
+        color: white;
+    }
+    /*CSS for sticky notes to create shadow and random tiles*/
+    
+    .stickynote {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: arial, sans-serif;
+        font-size: 100%;
+        margin: 3em;
+        color: #fff;
+        align-content: center;
+    }
+    
+    h2,
+    p {
+        font-size: 100%;
+        font-weight: normal;
+    }
+    
+    ul,
+    li {
+        list-style: none;
+    }
+    
+    ul {
+        overflow: hidden;
+        padding: 3em;
+    }
+    
+    ul li {
+        margin: 1em;
+        float: left;
+    }
+    
+    .one {
+        text-decoration: none;
+        color: #000;
+        background: rgb(228, 125, 206);
+        display: block;
+        height: 10em;
+        width: 10em;
+        padding: 1em;
+    }
+    
+    .two {
+        text-decoration: none;
+        color: #000;
+        background: rgb(121, 236, 136);
+        display: block;
+        height: 10em;
+        width: 10em;
+        padding: 1em;
+    }
+    
+    .three {
+        text-decoration: none;
+        color: #000;
+        background: rgb(245, 233, 124);
+        display: block;
+        height: 10em;
+        width: 10em;
+        padding: 1em;
+    }
+    
+    .four {
+        text-decoration: none;
+        color: #000;
+        background: rgb(157, 212, 238);
+        display: block;
+        height: 10em;
+        width: 10em;
+        padding: 1em;
+    }
+    
+    .five {
+        text-decoration: none;
+        color: #000;
+        background: rgb(121, 236, 136);
+        display: block;
+        height: 10em;
+        width: 10em;
+        padding: 1em;
+    }
+    
+    ul li a {
+        -webkit-transform: rotate(-6deg);
+        -o-transform: rotate(-6deg);
+        -moz-transform: rotate(-6deg);
+    }
+    
+    ul li:nth-child(even) a {
+        -o-transform: rotate(4deg);
+        -webkit-transform: rotate(4deg);
+        -moz-transform: rotate(4deg);
+        position: relative;
+        top: 5px;
+    }
+    
+    ul li:nth-child(3n) a {
+        -o-transform: rotate(-3deg);
+        -webkit-transform: rotate(-3deg);
+        -moz-transform: rotate(-3deg);
+        position: relative;
+        top: -5px;
+    }
+    
+    ul li:nth-child(5n) a {
+        -o-transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        position: relative;
+        top: -10px;
+    }
+    
+    ul li a:hover,
+    ul li a:focus {
+        -moz-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+        -webkit-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+        box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        position: relative;
+        z-index: 5;
+    }
