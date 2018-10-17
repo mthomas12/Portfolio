@@ -2,3 +2,18 @@
     background-image: url("img/pineapplebackground.png");
 }
 
+
+.header {
+    text-align: center;
+    margin: 150px;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
