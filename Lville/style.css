@@ -1,0 +1,49 @@
+.lead {
+    text-align: center;
+}
+
+.jumbotron {
+    font-family: 'Charmonman', cursive;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 30px 15px 30px 15px;
+    margin: 0px;
+}
+
+.sign {
+    border-style: inset;
+    border-width: 10px;
+}
+
+.history {
+    background-color: lightsalmon;
+    opacity: .5;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    padding: 30px 25px 10px 25px;
+}
+
+.food {
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    background-color: lightskyblue;
+    border-style: double;
+    font-style: bold;
+}
+.foodlist{
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(196, 229, 250);
+    border-style: dotted; 
+
+}
+
+.footer {
+    /*position: fixed; */
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(152, 236, 211);
+    color: black;
+    text-align: center;
+ }
